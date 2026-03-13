@@ -35,7 +35,7 @@ html, body {
   background: var(--bg);
   color: var(--text-pri);
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
 }
 img { display: block; max-width: 100%; }
@@ -276,7 +276,7 @@ ul { list-style: none; }
 }
 .cover-portfolio-title {
   font-family: 'Syne', sans-serif;
-  font-size: clamp(3rem, 7vw, 6.5rem);
+  font-size: clamp(3rem, 7vw, 5.5rem);
   font-weight: 800;
   color: var(--blue-pale);
   line-height: 1.05;
@@ -291,16 +291,21 @@ ul { list-style: none; }
 }
 .cover-name-sm {
   font-family: 'Syne', sans-serif;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--blue-mid);
   letter-spacing: 0.1em;
 }
 .cover-contact-info {
   font-family: 'Syne', sans-serif;
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
   letter-spacing: 0.05em;
+}
+.contact-label {
+  font-weight: 600;
+  color: var(--blue-mid);
+  margin-right: 0.3rem;
 }
 
 /* ─── Orb ─────────────────────────────────────────────── */
@@ -376,7 +381,7 @@ ul { list-style: none; }
 }
 .profile-name {
   font-family: 'Syne', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--blue-pale);
   letter-spacing: 0.08em;
@@ -417,9 +422,6 @@ ul { list-style: none; }
   font-size: 0.97rem;
   line-height: 1.65;
   color: var(--text-sec);
-}
-.stat-sm {
-  font-size: 1.2rem !important;
 }
 .about-left {
   display: flex;
@@ -470,12 +472,12 @@ ul { list-style: none; }
 .stat-box:hover { border-color: var(--blue-vivid); }
 .stat-box strong {
   font-family: 'Syne', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.85rem;
   font-weight: 800;
   color: var(--blue-pale);
   line-height: 1;
 }
-.stat-box span { font-size: 0.82rem; color: var(--text-muted); }
+.stat-box span { font-size: 0.95rem; color: var(--text-muted); }
 
 .about-right {
   display: grid;
@@ -831,9 +833,9 @@ ul { list-style: none; }
   line-height: 1;
   flex-shrink: 0;
 }
-.gen-name { font-size: 0.85rem; font-weight: 600; color: var(--blue-mid); white-space: nowrap; }
+.gen-name { font-size: 1rem; font-weight: 600; color: var(--blue-mid); white-space: nowrap; }
 .gen-sep { display: none; }
-.gen-role { font-size: 0.78rem; color: var(--text-sec); white-space: nowrap; }
+.gen-role { font-size: 0.85rem; color: var(--text-sec); white-space: nowrap; }
 .gen-year {
   position: absolute;
   top: 10px; right: 12px;
@@ -957,7 +959,7 @@ ul { list-style: none; }
 }
 .contact-title {
   font-family: 'Syne', sans-serif;
-  font-size: clamp(1.1rem, 2.1vw, 1.75rem);
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
   font-weight: 800;
   color: var(--blue-pale);
   line-height: 1.45;
